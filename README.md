@@ -3,7 +3,6 @@
 ## User Endpoints
 
 - [x] Post Login Endpoint
-
 - [x] Post Register Endpoint
 
 ## Property Endpoints
