@@ -77,6 +77,8 @@ const createPlayer = async (req, res, next) => {
     blocker,
     defense,
     expetaction,
+    latitude,
+    longitude,
   } = req.body;
 
   const searchByName = { username };
@@ -124,6 +126,8 @@ const createPlayer = async (req, res, next) => {
       blocker,
       defense,
       expetaction,
+      latitude,
+      longitude,
     };
 
     await PlayerModel.create(playerCreate);
@@ -174,6 +178,8 @@ const editPlayer = async (req, res, next) => {
     blocker,
     defense,
     expetaction,
+    latitude,
+    longitude,
   } = req.body;
   try {
     const playerEdited = {
@@ -209,6 +215,8 @@ const editPlayer = async (req, res, next) => {
       blocker,
       defense,
       expetaction,
+      latitude,
+      longitude,
     };
 
     await PlayerModel.findByIdAndUpdate(idPlayer, playerEdited);

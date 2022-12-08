@@ -99,6 +99,12 @@ const PlayerSchema = new Schema({
   blocker: {
     type: String,
   },
+  latitude: {
+    type: String,
+  },
+  longitude: {
+    type: String,
+  },
 });
 
 const PlayerModel = model("Player", PlayerSchema, "players");
