@@ -41,10 +41,7 @@ const PlayerSchema = new Schema({
   clubName: {
     type: String,
   },
-  indoor: {
-    type: String,
-  },
-  beach: {
+  sport: {
     type: String,
   },
   detailClub: {
