@@ -38,7 +38,7 @@ const PlayerSchema = new Schema({
   province: {
     type: String,
   },
-  clubName: {
+  linkLocation: {
     type: String,
   },
   sport: {
