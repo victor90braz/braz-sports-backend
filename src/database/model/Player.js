@@ -47,13 +47,6 @@ const PlayerSchema = new Schema({
   detailClub: {
     type: String,
   },
-
-  winner: {
-    type: String,
-  },
-  loser: {
-    type: String,
-  },
   rate: {
     type: String,
   },
@@ -100,6 +93,18 @@ const PlayerSchema = new Schema({
     type: String,
   },
   longitude: {
+    type: String,
+  },
+  instagram: {
+    type: String,
+  },
+  twitter: {
+    type: String,
+  },
+  linkedin: {
+    type: String,
+  },
+  github: {
     type: String,
   },
 });

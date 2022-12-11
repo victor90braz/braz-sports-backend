@@ -58,8 +58,6 @@ const createPlayer = async (req, res, next) => {
     linkLocation,
     sport,
     detailClub,
-    winner,
-    loser,
     rate,
     averageRate,
     flag,
@@ -78,6 +76,10 @@ const createPlayer = async (req, res, next) => {
     expetaction,
     latitude,
     longitude,
+    instagram,
+    twitter,
+    linkedin,
+    github,
   } = req.body;
 
   const searchByName = { username };
@@ -106,8 +108,6 @@ const createPlayer = async (req, res, next) => {
       linkLocation,
       sport,
       detailClub,
-      winner,
-      loser,
       rate,
       averageRate,
       flag,
@@ -126,6 +126,10 @@ const createPlayer = async (req, res, next) => {
       expetaction,
       latitude,
       longitude,
+      instagram,
+      twitter,
+      linkedin,
+      github,
     };
 
     await PlayerModel.create(playerCreate);
@@ -157,8 +161,6 @@ const editPlayer = async (req, res, next) => {
     linkLocation,
     sport,
     detailClub,
-    winner,
-    loser,
     rate,
     averageRate,
     flag,
@@ -177,6 +179,10 @@ const editPlayer = async (req, res, next) => {
     expetaction,
     latitude,
     longitude,
+    instagram,
+    twitter,
+    linkedin,
+    github,
   } = req.body;
   try {
     const playerEdited = {
@@ -193,8 +199,6 @@ const editPlayer = async (req, res, next) => {
       linkLocation,
       sport,
       detailClub,
-      winner,
-      loser,
       rate,
       averageRate,
       flag,
@@ -213,6 +217,10 @@ const editPlayer = async (req, res, next) => {
       expetaction,
       latitude,
       longitude,
+      instagram,
+      twitter,
+      linkedin,
+      github,
     };
 
     await PlayerModel.findByIdAndUpdate(idPlayer, playerEdited);
