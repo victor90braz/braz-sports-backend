@@ -95,18 +95,6 @@ const PlayerSchema = new Schema({
   longitude: {
     type: String,
   },
-  instagram: {
-    type: String,
-  },
-  twitter: {
-    type: String,
-  },
-  linkedin: {
-    type: String,
-  },
-  github: {
-    type: String,
-  },
 });
 
 const PlayerModel = model("Player", PlayerSchema, "players");

@@ -76,10 +76,6 @@ const createPlayer = async (req, res, next) => {
     expetaction,
     latitude,
     longitude,
-    instagram,
-    twitter,
-    linkedin,
-    github,
   } = req.body;
 
   const searchByName = { username };
@@ -126,10 +122,6 @@ const createPlayer = async (req, res, next) => {
       expetaction,
       latitude,
       longitude,
-      instagram,
-      twitter,
-      linkedin,
-      github,
     };
 
     await PlayerModel.create(playerCreate);
@@ -179,10 +171,6 @@ const editPlayer = async (req, res, next) => {
     expetaction,
     latitude,
     longitude,
-    instagram,
-    twitter,
-    linkedin,
-    github,
   } = req.body;
   try {
     const playerEdited = {
@@ -217,10 +205,6 @@ const editPlayer = async (req, res, next) => {
       expetaction,
       latitude,
       longitude,
-      instagram,
-      twitter,
-      linkedin,
-      github,
     };
 
     await PlayerModel.findByIdAndUpdate(idPlayer, playerEdited);
