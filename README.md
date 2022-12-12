@@ -1,4 +1,4 @@
-# Socialmedia API REST Endpoint Collection
+# BrazSports API REST Endpoint Collection
 
 ## User Endpoints
 
