@@ -32,31 +32,10 @@ const PlayerSchema = new Schema({
   contactNumber: {
     type: String,
   },
-  country: {
-    type: String,
-  },
-  province: {
-    type: String,
-  },
   linkLocation: {
     type: String,
   },
   sport: {
-    type: String,
-  },
-  detailClub: {
-    type: String,
-  },
-  rate: {
-    type: String,
-  },
-  averageRate: {
-    type: String,
-  },
-  flag: {
-    type: String,
-  },
-  nazionality: {
     type: String,
   },
   dateEvent: {
@@ -78,15 +57,6 @@ const PlayerSchema = new Schema({
     type: String,
   },
   descriptionEvent: {
-    type: String,
-  },
-  strenght: {
-    type: String,
-  },
-  flaw: {
-    type: String,
-  },
-  blocker: {
     type: String,
   },
   latitude: {
