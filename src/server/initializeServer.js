@@ -1,5 +1,5 @@
 require("dotenv").config();
-const debug = require("debug")("el_once_ideal:server:initializeServer");
+const debug = require("debug")("braz-sports:server");
 const chalk = require("chalk");
 const app = require("./index");
 

@@ -1,5 +1,5 @@
 require("dotenv").config();
-const debug = require("debug")("el_once_ideal:database:connection");
+const debug = require("debug")("braz-sports:database:connection");
 const chalk = require("chalk");
 const mongoose = require("mongoose");
 

@@ -1,5 +1,5 @@
 require("dotenv").config();
-const debug = require("debug")("elonceideal:root");
+const debug = require("debug")("braz-sports:root");
 const chalk = require("chalk");
 const connectDB = require("./database");
 const initializeServer = require("./server/initializeServer");
